@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var courseCard: UIView!
+    @IBOutlet var fullBlur: UIVisualEffectView!
+    @IBOutlet var cardImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//
+//        courseCard.layer.cornerRadius = 30
+//        fullBlur.layer.cornerRadius = 30
+//
+//        fullBlur.layer.masksToBounds = true
     }
 
 
